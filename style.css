@@ -4,19 +4,103 @@
     padding: 0%;
 }
 
-header {
+@font-face {
+    font-family: fuente1;
+    src: url(Fuentes/SMILE\ KINDS.ttf);
+}
+
+
+html{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+
+}
+
+body{
+    background-image: url(Imagenes/pngtree-heavy-color-rich-deep-red-pop-style-background-image_581301.jpg);
+}
+
+h1,h2 {
+    font-family: fuente1;
+    
+}
+    
+
+header{
     background-color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    
+}
+
+.logo img{ 
+    width: 120px;
+    border-radius: 50px;
 }
 
 nav {
     background-color: darkred;
+    padding: 10px;
+
+}
+
+nav a {
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 8px;
 }
 
 main {
     background-color: white;
+    min-height: 100vh;
+    padding: 25px 0;
+    
 }
 
 footer {
     color: white;
     background-color: black;
+    text-align: center;
+    padding: 2px;
 }
+
+.px {
+
+    width: 500px;
+    height: 350px;
+    padding: 15px;
+    margin: 0 auto 25px;
+    background-color: rgba(178, 34, 34, 1);
+    border: 2px solid black;
+} 
+
+.cuadro-rem {   /* Toma font-size del html */
+
+    width: 31.25rem;
+    height: 21.875rem;
+    padding: .9375rem;
+    margin: 1.5625rem auto;
+    background-color: rgba(178, 34, 34, 1);
+    border: 2px solid black;
+}
+
+.cuadro-em {
+
+    width: 31.25em;
+    height: 21.875em;
+    padding: .9375em;
+    margin: 1.5625em auto;
+    background-color: rgba(178, 34, 34, 1);
+    border: 2px solid black;
+}
+
+.em {
+
+    font-size: 25px;
+}
+
