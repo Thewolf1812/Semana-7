@@ -104,3 +104,27 @@ footer {
     font-size: 25px;
 }
 
+img {
+
+    width: 100%;
+}
+
+.columnas {
+
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px ;
+}
+
+.columnas.dos {
+
+    width: 45%;
+}
+
+.columnas p {
+
+    padding: 5px;
+}
